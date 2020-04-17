@@ -41,7 +41,7 @@
   border-radius: 0.2em;
   display: inline-block;
   background-color: #efefef;
-     transition: background 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: background 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 .PointRef--focused {
@@ -51,4 +51,13 @@
 .PointRef--selected {
   box-shadow: 0 0 0 3px #b4d5ff;
   background-color: cyan;
+}
+
+.PointRef__id {
+  font-size: 0.85em;
+}
+
+.PointRef__attr,
+.PointRef__type {
+  font-weight: 700;
 }
